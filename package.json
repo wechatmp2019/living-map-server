@@ -1,0 +1,36 @@
+{
+    "name": "life-map-server",
+    "version": "1.0.0",
+    "description": "base restful api",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "keywords": [
+        "koa",
+        "rest",
+        "api"
+    ],
+    "author": "Chen jiaxi",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "axios": "0.18.0",
+        "cookies": "0.7.1",
+        "koa": "^2.7.0",
+        "koa-better-body": "3.0.4",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "koa-session": "5.9.0",
+        "mime": "1.4.1",
+        "moment": "2.22.1",
+        "mysql": "^2.16.0",
+        "mz": "2.4.0",
+        "nunjucks": "2.4.3",
+        "path": "0.12.7",
+        "sequelize": "5.3.0",
+        "superagent": "4.0.0-beta.5",
+        "url": "0.11.0",
+        "uuid": "3.2.1",
+        "ws": "6.0.0"
+    }
+}
